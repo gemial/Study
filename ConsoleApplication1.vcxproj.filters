@@ -26,10 +26,14 @@
     <Text Include="Текст.txt">
       <Filter>Исходные файлы</Filter>
     </Text>
+    <Text Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="solve.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
   </ItemGroup>
 </Project>
